@@ -1,0 +1,226 @@
+
+    body{
+        margin: 0;
+        width: 100vw;
+        height: 200vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: first baseline;
+        align-items: center;
+        background-color: rgb(75, 46, 2, 0.5);
+    }
+    a{
+        text-decoration: none;
+        color:rgb(75, 46, 2, 0.8);
+    }
+    #header-img{
+        height: auto;
+        width: 20%;
+        border-radius: 50%;
+        padding: 10px;
+    }
+    #header{
+        display: flex;
+        justify-content:space-between;
+        align-items: flex-start;
+        background-color: rgb(75, 46, 2, 0.5);
+        font-family: 'Courier New', Courier, monospace;
+        color:rgb(75, 46, 2, 0.8);
+        font-weight: bolder;
+        height: 6%;
+        font-size: 25px;   
+        padding-top: 15px;
+        width: 100%;
+        position: fixed;
+        font-size: 50%;
+        
+    }
+    #logoTitle{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: -20px;
+    }
+    #nav-bar{
+        width: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        margin-right: 25px;
+        
+        
+    }
+    .productImgs{
+        height: 87px;
+        width: 87px;
+        border-radius: 50%;
+    }
+    .products{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .productText{
+        text-align: center;
+        height: 50px;
+        padding-bottom: 20px;
+        flex-wrap: wrap;
+        width: 100px;
+    }
+    #productBox{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        margin-top: 20px;
+        align-items: center;
+        height:25%;
+    }
+    #productImgsText{
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+       
+       
+    }
+    #productsHeader{
+        margin-top: 10px;
+    }
+    #howItsMade{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 25%;
+        margin-top: 5px;
+    }
+    #howItsMadeTitle{
+        
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    #aboutUs{
+        height: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        padding: 45px;
+    }
+    #form{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+    }
+
+    
+
+@media only screen and (min-width: 768px){
+body{
+    margin: 0;
+    width: 100vw;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    align-items: center;
+    background-color: rgb(75, 46, 2, 0.5);
+}
+a{
+    text-decoration: none;
+    color:rgb(75, 46, 2, 0.8);
+}
+#header-img{
+    height: auto;
+    width: 100px;
+    border-radius: 50%;
+    padding: 10px;
+}
+#header{
+    display: flex;
+    justify-content:space-between;
+    align-items: baseline;
+    background-color: rgb(75, 46, 2, 0.5);
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(75, 46, 2, 0.8);
+    font-weight: bolder;
+    height: 15%;
+    font-size: 25px;   
+    padding-right: 50px;
+    padding-left: 40px;
+    width: 100%;
+    position: fixed;
+    
+}
+#nav-bar{
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+    
+}
+.productImgs{
+    height: 150px;
+    width: 150px;
+}
+.products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.productText{
+    text-align: center;
+    height: 50px;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+    width: 100px;
+}
+#productBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    margin-top: 90px;
+    align-items: center;
+    height:25%;
+}
+#productImgsText{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+   
+   
+}
+#productsHeader{
+    margin-top: 10px;
+}
+#howItsMade{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 25%;
+    margin-top: 75px;
+}
+#howItsMadeTitle{
+    
+    font-weight: bold;
+    text-decoration: underline;
+}
+#aboutUs{
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    padding: 45px;
+}
+}

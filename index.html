@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> 
+    <title>Document</title>
+</head>
+<body>
+    <header id="header">
+        <div id="logoTitle">
+        <img src="images/logo.jpg" id="header-img">
+        Chucks Woodworking
+        </div>
+        <nav id="nav-bar">
+        <a class="nav-link" href="#productBox">Products</a> 
+        <a class="nav-link" href="#howItsMade">How It's Made</a> 
+        <a class="nav-link" href="#aboutUs">About Us</a> 
+        </nav>       
+    </header>
+    <div id="productBox">
+    <div id="productsHeader">
+        <h2>Our Products</h2>
+    </div>
+        <div id="productImgsText">
+   
+            <div class="products">
+                <img src="images/cornhole.jpg" alt="cornhole boards" class="productImgs"/>
+                <p class="productText">Custom Hand-Made Cornhole Boards</p>
+              </div>
+            <div class="products">
+                <img src="images/tables.jpg" alt="custom tables" class="productImgs"/>
+                <p class="productText">Solid Walnut Tables</p>
+              </div>
+            <div class="products">
+                <img src="images/engraving.jpg" alt="custom engraving" class="productImgs"/>
+                <p class="productText">Custom Engraving</p>
+              </div>
+            <div class="products">
+                <img src="images/toys.jpg" alt="toys" class="productImgs"/>
+                <p class="productText">Toys and Gifts!</p>
+              </div>
+          </div>
+    </div>
+</div>
+<div id="howItsMade">
+    <h4 id="howItsMadeTitle">How It's Made</h4>
+    <video width="320" height="240" controls id = "video" src="images/howItsMade.mp4"> </video>
+</div>
+<div id="aboutUs">
+    <h4 >About Us</h4>
+    <p>The company was created in 1989 inspired by love of natural materials and the 
+        desire to produce the best products possible resulting in engaging and exciting 
+        environments. Through more than twenty five years, the team at Chuck's Woodworking has 
+        gained national recognition for our fine craftsmanship, providing creative solutions to 
+        challenging commercial spaces, and for completing projects on time and with the least 
+        disruption to our clients’ business.</p>
+</div>
+<form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+    <label for="email">Enter your email for updates and coupon offers!</label>
+    <input type="email" name="email" required id="email" placeholder="Enter your Email">  
+    <input type="submit" id="submit">
+</form>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</body>
+</html>
