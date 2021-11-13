@@ -135,10 +135,11 @@ a{
     color:rgb(75, 46, 2, 0.8);
 }
 #header-img{
-    height: 12%;
-    width: 12%;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
     padding: 10px;
+    
 }
 #header{
     display: flex;
@@ -155,6 +156,11 @@ a{
     width: 100%;
     position: fixed;
     
+}
+#logoTitle{
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
 }
 #nav-bar{
     width: 800px;
